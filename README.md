@@ -2,7 +2,7 @@
 支付宝支付SDK的封装，只需要调用一个方法，传入参数和回调接口即可，像请求网络一样简单！
 
 # Dependency [![](https://jitpack.io/v/li-xiaojun/AlipayUtil.svg)](https://jitpack.io/#li-xiaojun/AlipayUtil)
-###Gradle
+### Gradle
 1. Add it in your root build.gradle at the end of repositories
 
 		allprojects {
@@ -16,7 +16,8 @@
 		dependencies {
 	        compile 'com.github.li-xiaojun:AlipayUtil:1.0.0'
 		}
-###maven
+
+### Maven
 1. Add the JitPack repository to your build file
 		
 		<repositories>
