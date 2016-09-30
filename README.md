@@ -1,6 +1,23 @@
 # AlipayUtil
 支付宝支付SDK的封装，只需要调用一个方法，传入参数和回调接口即可，像请求网络一样简单！
-##In 2 Steps!
+
+# Dependency [![](https://jitpack.io/v/li-xiaojun/AlipayUtil.svg)](https://jitpack.io/#li-xiaojun/AlipayUtil)
+
+1. Add it in your root build.gradle at the end of repositories
+
+		allprojects {
+			repositories {
+				...
+				maven { url "https://jitpack.io" }
+			}
+		}
+2. Add the dependency
+
+		dependencies {
+	        compile 'com.github.li-xiaojun:AlipayUtil:1.0.0'
+		}
+
+# Usage(Just in 2 steps!)
 1. 初始化合作者id和收款方支付宝账号
 
 		AliPayHelper.init("","");
@@ -30,5 +47,6 @@
             }
         });
 
-##Intro
+# Intro
 - 此封装支付方便我们进行支付宝SDK的调用，对于集成支付宝SDK的整体流程还是应该了解一下，事先配置好公钥参数，并且理解签名串应该放到服务器端做，让服务器端提供接口返回签名信息即可。
+
